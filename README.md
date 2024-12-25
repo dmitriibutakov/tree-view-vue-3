@@ -22,6 +22,6 @@ And import TreeView where you want:
 import {TreeView} from 'tree-view-vue-3'
 ```
 
-Storybook example: https://tree-view-vue-3.vercel.app 
+Storybook example: [https://tree-view-vue-3.vercel.app ](https://tree-view-vue-3.vercel.app/)
 
 ## Enjoy developing!
