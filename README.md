@@ -15,5 +15,13 @@ In your main entrypoint **before** import CSS styles (in main.ts for example):
 ```javascript
 import 'tree-view-vue-3/style.css'
 ```
-Storybook documentation: ###
+
+And import TreeView where you want:
+
+```javascript
+import {TreeView} from 'tree-view-vue-3'
+```
+
+Storybook example: (https://tree-view-vue-3.vercel.app )
+
 ## Enjoy developing!
