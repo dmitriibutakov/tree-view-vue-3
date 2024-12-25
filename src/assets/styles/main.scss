@@ -1,0 +1,8 @@
+@forward "reset";
+
+@mixin font-14-500() {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.32;
+  letter-spacing: .4px;
+}

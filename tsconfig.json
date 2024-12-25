@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "allowImportingTsExtensions": true,
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*.vue",
+    "src/**/*stories.ts",
+    "src/**/*.ts"
+  ],
+}

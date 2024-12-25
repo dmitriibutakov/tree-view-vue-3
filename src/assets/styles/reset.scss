@@ -1,0 +1,27 @@
+@mixin resetStyles() {
+  *:not(.icon) {
+    font-family: sans-serif;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  button {
+    all: unset;
+    display: inline-block;
+    cursor: pointer;
+  }
+  ul {
+    list-style: none;
+    padding: 0 0 0 8px;
+    margin: 0;
+  }
+
+  li {
+    list-style: none;
+    padding: 0 0 0 8px;
+  }
+}
