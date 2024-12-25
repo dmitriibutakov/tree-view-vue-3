@@ -1,27 +1,27 @@
-# Tree-view-vue
+# Tree-view-vue-3
 
-Tree view component is written in [Vue.js] version 3
+A Tree View component built with [Vue.js] version 3.
 
 ## Usage
 
-To use this component in your project, add it as a dependency:
+To integrate this component into your project, install it as a dependency:
 
 ```sh
 npm install tree-view-vue-3
 ```
 
-In your main entrypoint **before** import CSS styles (in main.ts for example):
+Import the CSS styles before initializing the component (e.g., in main.ts):
 
 ```javascript
 import 'tree-view-vue-3/style.css'
 ```
 
-And import TreeView where you want:
+Import and use the TreeView component wherever needed:
 
 ```javascript
 import {TreeView} from 'tree-view-vue-3'
 ```
 
-Storybook example: [https://tree-view-vue-3.vercel.app ](https://tree-view-vue-3.vercel.app/)
+You can find a live Storybook example here: [https://tree-view-vue-3.vercel.app ](https://tree-view-vue-3.vercel.app/)
 
 ## Enjoy developing!
