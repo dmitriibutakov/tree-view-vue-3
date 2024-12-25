@@ -101,7 +101,7 @@ export const treeExampleCustomSlots: Story = {
         return { args, nodes };
       },
       template: `
-        <TreeView v-bind="args" :nodes="nodes">
+        <TreeView v-bind="args" show-controls :nodes="nodes">
           <template #default="{ node }">
             <ItemListTree :icon="node.icon" :text="node.label"/>
           </template>
